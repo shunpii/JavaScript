@@ -6,5 +6,8 @@ let sample = 'Hello World!';
 // 定数
 const sample2 = 'He..Hell...Hello World!';
 
-console.log(sample2)
+// 配列
+let inoki = ['いーち','にー','さーん','ダーー!!'];
+
+console.log(inoki[0])
 
