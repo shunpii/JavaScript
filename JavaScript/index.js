@@ -53,3 +53,12 @@ const sample3 = {
 };
 
 console.log(sample3.sample());
+
+// window.alert('Hello World')
+
+// console.log(document.getElementsByTagName('button')[0])
+
+document.getElementsByTagName('button')[0].addEventListener('click', ()=> {
+    // 命令書く
+    window.alert('Hello World!')
+});
