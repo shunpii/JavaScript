@@ -42,5 +42,14 @@ const test = (arg) => {
     }
 };
 
-test(6);
-test(3);
+// オブジェクト
+const sample3 = {
+    color: 'pink',
+    size: 'large',
+    purfume: 'mint',
+    sample: () => {
+        console.log('Hello World!');
+    }
+};
+
+console.log(sample3.sample());
