@@ -16,8 +16,20 @@ let inoki = ['いーち','にー','さーん','ダーー!!'];
 // }
 
 // if / else
-if(inoki.length > 5){
-    console.log('ボンバイエ');
-} else {
-    console.log('ボンバ...!')
-}
+// if(inoki.length > 5){
+//     console.log('ボンバイエ');
+// } else {
+//     console.log('ボンバ...!')
+// }
+
+// 関数
+const test = () => {
+    // ここに実行したい命令を書く
+    if(inoki.length > 5){
+        console.log('ボンバイエ');
+    } else {
+        console.log('ボンバ...!')
+    }
+};
+
+test();
