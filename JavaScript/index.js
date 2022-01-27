@@ -23,13 +23,24 @@ let inoki = ['いーち','にー','さーん','ダーー!!'];
 // }
 
 // 関数
-const test = () => {
+// const test = () => {
+//     // ここに実行したい命令を書く
+//     if(inoki.length > 5){
+//         console.log('ボンバイエ');
+//     } else {
+//         console.log('ボンバ...!')
+//     }
+// };
+
+// 引数
+const test = (arg) => {
     // ここに実行したい命令を書く
-    if(inoki.length > 5){
+    if(inoki.length > arg){
         console.log('ボンバイエ');
     } else {
         console.log('ボンバ...!')
     }
 };
 
-test();
+test(6);
+test(3);
