@@ -8,10 +8,16 @@ const sample2 = 'He..Hell...Hello World!';
 let inoki = ['いーち','にー','さーん','ダーー!!'];
 
 // ループ文
-let index = 0;
-while(index < inoki.length){
-    // 繰り返したい命令
-    console.log(inoki[index])
-    index++;
-}
+// let index = 0;
+// while(index < inoki.length){
+//     // 繰り返したい命令
+//     console.log(inoki[index])
+//     index++;
+// }
 
+// if / else
+if(inoki.length > 5){
+    console.log('ボンバイエ');
+} else {
+    console.log('ボンバ...!')
+}
