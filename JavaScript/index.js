@@ -1,13 +1,17 @@
 // 変数
 let sample = 'Hello World!';
 
-// sample = 'Hello World2!!';
-
 // 定数
 const sample2 = 'He..Hell...Hello World!';
 
 // 配列
 let inoki = ['いーち','にー','さーん','ダーー!!'];
 
-console.log(inoki[0])
+// ループ文
+let index = 0;
+while(index < inoki.length){
+    // 繰り返したい命令
+    console.log(inoki[index])
+    index++;
+}
 
